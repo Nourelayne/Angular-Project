@@ -7,12 +7,14 @@ import { FormsModule } from '@angular/forms';
 import { convertActionBinding } from '@angular/compiler/src/compiler_util/expression_converter';
 import { convertMetaToOutput } from '@angular/compiler/src/render3/util';
 import { ConvertToSpaces } from './shared/convert-to-spaces.pipe';
+import { StarComponent } from './shared/star.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductListComponent,
-    ConvertToSpaces
+    ConvertToSpaces,
+    StarComponent
   ],
   imports: [
     BrowserModule,
